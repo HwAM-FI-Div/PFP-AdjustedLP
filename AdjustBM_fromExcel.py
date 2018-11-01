@@ -29,7 +29,7 @@ s0 = time.time()
 
 print("조정BM 비중 계산용 데이터 가져오기(오래걸림)......")
 s1 = time.time()
-
+print(s1)
 conn = pymssql.connect(server='172.32.1.31', user='ufi', password='ufi', charset='EUC-KR')
 cursor = conn.cursor()
 
